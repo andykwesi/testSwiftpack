@@ -33,11 +33,11 @@ struct ContentView: View {
 
         let payload: [String: Any] = [
             "source_wallet": "9d0237a0-8362-4cb0-8595-a006e3b0bb1c",
-            "external_account_id": "0247925066",
+            "external_account_id": "",
             "amount": 0.50,
             "service": 14,
             "note": "airtime",
-            "destination_phone": "0247925066"
+            "destination_phone": ""
         ]
 
         var request = URLRequest(url: url)
