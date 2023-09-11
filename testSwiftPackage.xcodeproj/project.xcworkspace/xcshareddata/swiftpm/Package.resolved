@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "demowingipaysdkpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andykwesi/demoWingipaySDKpackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d9338767f0d544f0448c17fa32008f831d9c792a"
+      }
+    }
+  ],
+  "version" : 2
+}

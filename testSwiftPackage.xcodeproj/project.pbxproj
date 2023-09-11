@@ -14,6 +14,7 @@
 		723F94172A67D24400584094 /* testSwiftPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F94162A67D24400584094 /* testSwiftPackageTests.swift */; };
 		723F94212A67D24400584094 /* testSwiftPackageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F94202A67D24400584094 /* testSwiftPackageUITests.swift */; };
 		723F94232A67D24400584094 /* testSwiftPackageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F94222A67D24400584094 /* testSwiftPackageUITestsLaunchTests.swift */; };
+		723F94312A67D55500584094 /* demoWingipaySDKpackage in Frameworks */ = {isa = PBXBuildFile; productRef = 723F94302A67D55500584094 /* demoWingipaySDKpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723F94312A67D55500584094 /* demoWingipaySDKpackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = testSwiftPackage;
+			packageProductDependencies = (
+				723F94302A67D55500584094 /* demoWingipaySDKpackage */,
+			);
 			productName = testSwiftPackage;
 			productReference = 723F94022A67D24100584094 /* testSwiftPackage.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 723F93F92A67D24100584094;
+			packageReferences = (
+				723F942F2A67D55500584094 /* XCRemoteSwiftPackageReference "demoWingipaySDKpackage" */,
+			);
 			productRefGroup = 723F94032A67D24100584094 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		723F942F2A67D55500584094 /* XCRemoteSwiftPackageReference "demoWingipaySDKpackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andykwesi/demoWingipaySDKpackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		723F94302A67D55500584094 /* demoWingipaySDKpackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 723F942F2A67D55500584094 /* XCRemoteSwiftPackageReference "demoWingipaySDKpackage" */;
+			productName = demoWingipaySDKpackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 723F93FA2A67D24100584094 /* Project object */;
 }
